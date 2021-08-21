@@ -1,0 +1,25 @@
+Pregunta 1: ¿Que significan las siglas MVC?
+3
+Matriz, Vision, Computador
+Modelo, Vista, Colección
+Modelo, Vista, Controlador
+Pregunta 2: ¿Cuál es el ciclo de vida de un Servelt?
+1
+Init, Service, Destroy
+Init, Deploy, Terminate
+Init, Use, Destroy
+Pregunta 3: ¿Cómo podemos seguir realizar el seguimiento de sesiones?
+3
+Con Cookies
+Usando el concepto de sesion
+Ambas
+Pregunta 4: ¿Qué etiqueta HTML usamos para llamar a un fichero css externo?
+1
+link
+style
+script
+Pregunta 5: ¿Que etiqueta HTML usamos para añadir funcionalidades js a la página web?
+2
+link
+script
+style

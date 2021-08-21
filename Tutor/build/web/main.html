@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+       
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        
+        <title>Página principal</title>
+        
+         <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <!-- custom css file -->
+        <link rel="stylesheet" href="css/style.css">
+        
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+        
+        <!-- custom js file -->
+        <script type="text/javascript" src="js/myscript.js"></script>
+    </head>
+    <body onload="fecha()">
+        
+        <div class="tittle"> <h2 class="second">Sistema Tutor</h2></div>
+        
+        <div class="box2">
+            <p>Este sistema evaluará mediante una serie de tests el conocimiento de la materia
+            por parte del estudiante. Mediante estos tests el alumno podrá comprobar su dominio 
+            la asignatura. Al final de cada test recibirá una calificación que le servirá como
+            orientación de lo que sabe y se le hará una recomendación cara al examen.</p>   
+         <div class="d-flex justify-content-center">
+         <div class="p-2"> <input type="submit" name="acceder" value="Acceder" class="btn btn-success" onClick='window.location.href="test.jsp";'></div>
+         <div class="p-2">
+             <form method="POST" action="CerrarSesion"> <input type="submit" name="exit" value="Cerrar Sesión" class="btn btn-danger"></form> 
+         </div>
+         </div>
+
+         </div>
+        
+        <div class="autor">
+        <hr>
+        Pablo Bellido (Universidad de Málaga) <br>
+        Copyright &copy; 2021 Todos los derechos reservados <br>
+        <p id="modificacion"></p>
+        </div>
+        
+    </body>
+</html>

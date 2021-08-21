@@ -1,0 +1,25 @@
+Pregunta 1: ¿Qué es un Servlet?
+1
+Una clase en Java para ampliar las capacidades de un servidor
+Un servidor
+Un Protocolo para la transmisión de ficheros
+Pregunta 2: ¿Que significan las siglas JSP?
+3
+Java Service Pages
+Java Selection Pages
+Java Server Pages
+Pregunta 3: ¿Cuál de los siguientes protocolos es orientado a conexión?
+2
+UDP
+TCP
+Ambos
+Pregunta 4: ¿Que siginfican las siglas TFTP?
+2
+Trivial File Transport Protocol 
+Trivial File Transfer Protocol
+Ninguna de las anteriores
+Pregunta 5: ¿Que significan las siglas LAN?
+1
+Local Area Network
+Linux Association Networks
+Linux Area Network

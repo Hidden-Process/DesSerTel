@@ -1,0 +1,25 @@
+Pregunta 1: ¿Que significan las siglas AJAX?
+2
+Asynchronous JavaScript And XHTML
+Asynchronous JavaScript And XML
+Asynchronous JavaScript and Adjusted X-Format
+Pregunta 2: ¿Cuál es el uso de la etiqueta div en HTML?
+1
+Agrupar varios elementos de cualquier tipo en un mismo bloque
+Dividir el head del body
+No existe la etiqueta div en HTML
+Pregunta 3: ¿Qué define la etiqueta tr en HTML?
+3
+Una celda como encabezado de un grupo de celdas en una tabla
+Una celda de una tabla
+Una fila de celdas en una tabla
+Pregunta 4: ¿Con qué etiqueta insertamos una imagen en un documento HTML?
+3
+link
+href
+img
+Pregunta 5: ¿Como insertamos código java en un documento JSP?
+2
+<& &>
+<% %>
+<# #>

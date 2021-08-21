@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        
+        <title>Registro</title>
+        
+         <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <!-- custom css file -->
+        <link rel="stylesheet" href="css/style.css">
+        
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+        
+        <!-- custom js file -->
+        <script type="text/javascript" src="js/myscript.js"></script>
+    </head>
+    
+    <body>
+        
+        <div class="tittle">
+        <h1 class="second"> Regístrate</h1>
+        </div>
+        
+        
+        <div class="box">
+        <form method="POST" action="Registrar" onsubmit="return validacion_registro()">
+         <p><input type="text" id="username" name="username" placeholder="Nombre de usuario"></p>
+         <p><input type="password" id="pass" name="pass"  placeholder="Contraseña"> </p>
+         <p><input type="password" id="pass2" name="pass2"  placeholder="Repite tu contraseña"> </p>
+         <p><input type="email" id="mail" name="mail"  placeholder="Correo Electrónico"> </p>
+         <p><input type="date" id="birth" name="birth"  placeholder="Fecha Nacimiento"> </p>
+         <p><input type="tel" id="phone" name="phone"  placeholder="Número de telefono"> </p> <br>
+         <div class="registro"> <input type="submit" name="enviar" value="Registrarme" class="btn btn-primary"></div>
+        </form>
+        </div>
+       
+        <div class="autor">
+        <hr>
+        Pablo Bellido (Universidad de Málaga) <br>
+        Copyright &copy; 2021 Todos los derechos reservados   
+        </div>
+        
+    </body>
+</html>
